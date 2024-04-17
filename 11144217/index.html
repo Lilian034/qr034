@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Resume</h1>
+    </header>
+
+    <a href="#index" id="back-to-top">
+        <button onclick="scrollToTop()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" 
+                fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+            </svg>
+        </button>
+    </a>
+
+    <section>
+        <h2>ABOUT ME</h2>
+        <section class="m01">
+            <img class="img" src="image/me.jpg" alt="me" width="20%" height="20%">
+            <div>
+                <p>姓名：簡欣卉 CHIEN,HSIN-HUI</p>
+                <p>科系： 資訊管理 Information Management</p>
+                <p>生日：2004年3月4日</p>
+                <p>個人特質：獨立 果斷 理性</p>
+                <p>MBTI/星座：INTJ-A 雙魚座</p>
+                <p>興趣：寫作 閱讀 看海 打遊戲</p>
+                <a href="mailto:lilian930304@gmail.com" target="_blank"><img src="image/email.png" alt="c1" width="40" height="40"></a>
+                <a href="https://www.facebook.com/profile.php?id=100013694890983&mibextid=LQQJ4d" target="_blank"><img src="image/fb.png" alt="c2" width="40" height="40"></a>
+                <a href="https://www.instagram.com/lilian._.034?igsh=dDU2aWJsbnFtaWxh&utm_source=qr" target="_blank"><img src="image/ins.png" alt="c3" width="40" height="40"></a>
+            </div>
+        </section>
+        <section class="m02">
+            <div>
+                <h3>#SLOGAN</h3><br>
+                <p>我的生命，是一萬次春和景明</p>
+                <p>Ten thousand bright spring lights make up my life.</p>
+            </div>
+            <div>
+                <h3>#EDUCATION</h3>
+                <p><a href="https://www.tykjh.ntpc.edu.tw/" target="_blank"><img src="image/tyk.png" alt="s1" width="35" height="25">桃子腳國民小學</a></p>
+                <p><a href="https://www.tykjh.ntpc.edu.tw/" target="_blank"><img src="image/tyk.png" alt="s2" width="35" height="25">桃子腳國民中學</a></p>
+                <p><a href="https://www.tsshs.ntpc.edu.tw/" target="_blank"><img src="image/tsshs.png" alt="s3" width="25" height="25"> 私立辭修高中</a></p>
+                <p><a href="https://www.cycu.edu.tw/" target="_blank"><img src="image/cycu.png" alt="s4" width="25" height="25"> 中原大學 資訊管理</a></p>
+            </div>  
+        </section>
+
+        <nav>
+            <h2><a href="#PROGRAM SKILLS">PROGRAM SKILLS</a></h2>
+            <h2><a href="#OTHER SKILLS">OTHER SKILLS</a></h2>
+            <h2><a href="#WORK EXPERIENCES">WORK EXPERIENCES</a></h2>
+            <h2><a href="#ACTIVITY EXPERIENCES">ACTIVITY EXPERIENCES</a></h2>
+        </nav>
+        
+        <a name="PROGRAM SKILLS"></a>
+        <h2>PROGRAM SKILLS</h2>
+        <section class="ps">
+            <div>PYTHON</div>
+            <progress value="60" max="100"></progress><p>60%</p>
+            <div>JAVA</div>
+            <progress value="55" max="100"></progress><p>55%</p>
+            <div>CSS/HTML</div>
+            <progress value="50" max="100"></progress><p>50%</p>
+            <div>C/C++</div>
+            <progress value="50" max="100"></progress><p>50%</p>
+        </section>
+        
+        <a name="OTHER SKILLS"></a>
+        <h2>OTHER SKILLS</h2>
+        <section class="os">
+            <p>文書處理</p>
+            <div class="container">
+                <div class="wave1"></div>
+                <p>55%</p>
+            </div>
+            <p>影音剪輯</p>
+            <div class="container">
+                <div class="wave2"></div>
+                <p>65%</p>
+            </div>
+            <p>烹飪烘焙</p>
+            <div class="container">
+                <div class="wave3"></div>
+                <p>50%</p>
+            </div>
+            <p>書寫創作</p>
+            <div class="container">
+                <div class="wave4"></div>
+                <p>70%</p>
+            </div>
+        </section>
+
+            <a name="WORK EXPERIENCES"></a>
+            <h2> WORK EXPERIENCES</h2>
+            <section class="exp">
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <div class="slider-container" id="slider1">
+                            <button class="slider-btn prev-btn" onclick="prevSlide('slider1')">&lt;</button>
+                            <button class="slider-btn next-btn" onclick="nextSlide('slider1')">&gt;</button>
+                            <div class="slides">
+                                <div class="slide"><img class="img02" src="image/ex1-1.jpg" alt="Image 1" width="300px" height="300px"></div>
+                                <div class="slide"><img class="img02" src="image/ex1-2.jpg" alt="Image 2" width="300px" height="300px"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <p>
+                            #WORK<br>
+                            2023.5~2023.7<br>
+                            台茂購物中心<br><br>
+                            做這份工作的時候學到了很多東西，陳列、櫃位清潔、庫存管理、推銷、收銀、每日報表回報之類的都要會。<br>
+                            因為平常站櫃到百貨結束營業清機的時候我都只有我自己一個人，所以要記得很多東西，雖然也有把卡扣忘記所以賠錢的經歷啦⋯
+                        </p>
+                    </div>
+                    
+                    <div class="grid-item">
+                        <div class="slider-container" id="slider2">
+                            <button class="slider-btn prev-btn" onclick="prevSlide('slider2')">&lt;</button>
+                            <button class="slider-btn next-btn" onclick="nextSlide('slider2')">&gt;</button>
+                            <div class="slides">
+                                <div class="slide"><img class="img02" src="image/ex2-1.jpg" alt="Image 1" width="300px" height="300px"></div>
+                                <div class="slide"><img class="img02" src="image/ex2-2.jpg" alt="Image 2" width="300px" height="300px"></div>
+                                <div class="slide"><img class="img02" src="image/ex2-3.jpg" alt="Image 3" width="300px" height="300px"></div>
+                                <div class="slide"><img class="img02" src="image/ex2-4.jpg" alt="Image 4" width="300px" height="300px"></div>
+                                <div class="slide"><img class="img02" src="image/ex2-5.jpg" alt="Image 5" width="300px" height="300px"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <p>
+                            #WORK<br>
+                            2022.6~2023.2<br>
+                            花心花坊<br><br>
+                            很新奇有趣的工作經驗，平常負責花材的處理，這真的很費心力，因為每一種花的處理方式都會有不一樣的地方，但每次上班都可以被好多花包圍真的很幸福，也跟老闆娘學了一些包花束、插花、養花的技巧，發現了這個行業真的很看天賦，天賦好隨便插都很漂亮。
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <a name="ACTIVITY EXPERIENCES"></a>
+            <h2>ACTIVITY EXPERIENCES</h2>
+            <section class="exp">
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <div class="slider-container" id="slider3">
+                            <button class="slider-btn prev-btn" onclick="prevSlide('slider3')">&lt;</button>
+                            <button class="slider-btn next-btn" onclick="nextSlide('slider3')">&gt;</button>
+                            <div class="slides">
+                                <div class="slide"><img class="img02" src="image/ex3-1.jpg" alt="Image 1" width="300px" height="300px"></div>
+                                <div class="slide"><img class="img02" src="image/ex3-2.jpg" alt="Image 2" width="300px" height="300px"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <p>
+                            #ACTIVITY<br>
+                            2023.4.30<br>
+                            全大運志工<br><br>
+                            雖然對自己分配到的賽事 —— 桌球這個運動項目沒有到很了解，但一次性看到那多優秀的年輕球員在賽場上競技、追逐自己的目標，依然被他們熱血朝氣的氛圍感染。
+                        </p>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="slider-container" id="slider4">
+                            <div class="slides">
+                                <div class="slide"><img class="img02" src="image/ex4-1.jpg" alt="Image 1" width="300px" height="300px"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <p>
+                            #ACTIVITY<br>
+                            2022.12~now<br>
+                            系籃球隊經理<br><br>
+                        </p>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="slider-container" id="slider5">
+                            <button class="slider-btn prev-btn" onclick="prevSlide('slider5')">&lt;</button>
+                            <button class="slider-btn next-btn" onclick="nextSlide('slider5')">&gt;</button>
+                            <div class="slides">
+                                <div class="slide"><img class="img02" src="image/ex5-1.jpg" alt="Image 1" width="300px" height="300px"></div>
+                                <div class="slide"><img class="img02" src="image/ex5-2.jpg" alt="Image 2" width="300px" height="300px"></div>
+                                <div class="slide"><img class="img02" src="image/ex5-3.jpg" alt="Image 3" width="300px" height="300px"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <p>
+                            #ACTIVITY<br>
+                            2023.9.5<br>
+                            112年新生學涯體驗營品格樂原工作人員<br><br>
+                        </p>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="slider-container" id="slider6">
+                            <button class="slider-btn prev-btn" onclick="prevSlide('slider6')">&lt;</button>
+                            <button class="slider-btn next-btn" onclick="nextSlide('slider6')">&gt;</button>
+                            <div class="slides">
+                                <div class="slide"><img class="img02" src="image/ex6-2.jpg" alt="Image 1" width="300px" height="300px"></div>
+                                <div class="slide"><img class="img02" src="image/ex6-1.jpg" alt="Image 2" width="300px" height="300px"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <p>
+                            #ACTIVITY<br>
+                            2022.12<br>
+                            大一上管理學<br><br>
+                            我認為服務學習是很有意義的事，是身為學生的我們能夠為社會奉獻的方法之一，在服務社會的過程中學習經驗，讓這個社會朝正面方向發展。這是不能從書中學的，只有自己親力親為才能悟到，我十分珍惜每一次服務學習的機會，因為他能讓我在更多面向成長、開闊眼界，讓我了解到不同人群、不一樣的生活。
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        
+            
+        <script>
+            function scrollToTop() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            }
+            window.addEventListener("scroll", function() {
+                var button = document.getElementById("back-to-top");
+                if (window.pageYOffset > 200) {
+                    button.style.display = "block";
+                } else {
+                    button.style.display = "none";
+                }
+            });
+
+            function prevSlide(sliderId) {
+                var slides = document.getElementById(sliderId).getElementsByClassName('slides')[0];
+                var firstSlide = slides.firstElementChild;
+                slides.removeChild(firstSlide);
+                slides.appendChild(firstSlide);
+            }
+            
+            function nextSlide(sliderId) {
+                var slides = document.getElementById(sliderId).getElementsByClassName('slides')[0];
+                var lastSlide = slides.lastElementChild;
+                slides.removeChild(lastSlide);
+                slides.insertBefore(lastSlide, slides.firstChild);
+            }
+        </script>
+ 
+    <footer>
+        Copyright © 2024 Lilian.
+    </footer>
+</body>
+</html>
