@@ -111,13 +111,13 @@ nav {
     background: #7790A4;
     border-radius: 40px;
     font-size: larger;
-    margin: 40px 0 10px 20%;
+    margin: 40px 0 10px 15%;
     padding: 15px;
     width: 100px;
 }
 
 .ps > p {
-    margin: 60px 40% 30px 5px;
+    margin: 60px 30% 30px 0px;
 }
 
 progress {
